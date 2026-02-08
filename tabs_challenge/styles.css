@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Fredoka Variable';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300 700;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/fredoka:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka Variable', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.general_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 900px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    width: 100%;
+
+    button {
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 1.2rem;
+
+        &.active_tab {
+            border-bottom: 2px solid #000;
+        }
+    }
+}
+
+.content {
+    width: 100%;
+
+
+}
+
+.tab_1_content,
+.tab_2_content,
+.tab_3_content,
+.tab_4_content,
+.tab_5_content {
+    display: none;
+}
+
+.tab_content {
+    padding: 1rem;
+
+    .header_tab,
+    .footer_tab {
+        font-size: 1.2rem;
+    }
+
+    .body_tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: #000;
+        color: #fff;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 15px;
+        height: 100px;
+        font-size: 1.2rem;
+    }
+}
+
+.active {
+    display: block;
+}
