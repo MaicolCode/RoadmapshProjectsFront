@@ -9,9 +9,9 @@ Acompaño cada reto con una **Bitácora de Aprendizaje** (`LEARNING_LOG.md`) don
 
 ## 🛠️ Retos Completados
 
-| Proyecto | Nivel | Tecnologías | Descripción | Link |
-| :--- | :---: | :--- | :--- | :---: |
-| **Simple Tabs** | Junior | HTML, CSS, JS | Un componente de pestañas funcional con delegación de eventos. | [Ver Reto](./tabs_challenge/) |
+| Proyecto | Nivel | Tecnologías | Descripción | Link | Link del reto |
+| :--- | :---: | :--- | :--- | :---: | :---: |
+| **Simple Tabs** | Junior | HTML, CSS, JS | Un componente de pestañas funcional con delegación de eventos. | [Ver Reto](./tabs_challenge/) | [Simple Tabs](https://roadmap.sh/projects/simple-tabs) |
 
 ---
 
@@ -34,6 +34,7 @@ Acompaño cada reto con una **Bitácora de Aprendizaje** (`LEARNING_LOG.md`) don
 **MaicolCode**
 - GitHub: [@MaicolCode](https://github.com/MaicolCode)
 - Repositorio del proyecto: [RoadmapshProjectsFront](https://github.com/MaicolCode/RoadmapshProjectsFront)
+
 
 ---
 
