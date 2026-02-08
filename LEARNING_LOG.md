@@ -27,3 +27,9 @@ Este documento sirve para registrar conceptos, soluciones y dudas encontradas du
 ## ✍️ Próximos Pasos
 - [ ] Aplicar Data Attributes en el siguiente reto.
 - [ ] Mejorar el diseño visual con efectos de cristal (glassmorphism).
+
+## Vocabulary of the day
+1. Event Delegation: Delegación de eventos
+2. Target: Objetivo / Blanco
+3. Closest: Cercano / Más cercano
+4. Handle: Manejar / Gestionar
